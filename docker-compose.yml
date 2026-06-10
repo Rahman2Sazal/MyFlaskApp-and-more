@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  webapp:
+    image: YOUR_DOCKER_USERNAME/my-app:latest
+    ports:
+      - "80:80"
+    restart: always
